@@ -8,3 +8,5 @@ Writing a spec, p.380
 Creating a virtual environment, p.380
 Activating the virtual environment, p.381
 Installing Django, p.381
+
+Creating a project in Django, p.382
