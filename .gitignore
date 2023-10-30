@@ -1,0 +1,8 @@
+# Use 'git rm --cached' to remove files already tracked
+
+__pycache__/
+bin/
+ll_env/
+
+*.html
+*.json
