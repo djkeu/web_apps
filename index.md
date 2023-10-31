@@ -28,4 +28,4 @@ Activating models, p.386
 The django admin site, p.387
     Setting up a superuser
     Registering a model with the admin site
-    
+    Adding topics
