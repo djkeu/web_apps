@@ -34,3 +34,4 @@ The django admin site, p.387
     Adding topics
 Defining the entry model, p.390
     models.py
+Migrating the entry model, p.391
