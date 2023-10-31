@@ -35,3 +35,6 @@ The django admin site, p.387
 Defining the entry model, p.390
     models.py
 Migrating the entry model, p.391
+Registering Entry with the admin site, p.391
+    admin.py
+    
