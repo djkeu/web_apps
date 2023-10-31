@@ -37,4 +37,4 @@ Defining the entry model, p.390
 Migrating the entry model, p.391
 Registering Entry with the admin site, p.391
     admin.py
-    
+The Django shell, p.392
