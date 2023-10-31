@@ -25,3 +25,6 @@ To get a better idea of what Django does, build a couple of empty projects and l
 # Starting an app, p.384
 Defining models, p.385
 Activating models, p.386
+The django admin site, p.387
+    Setting up a superuser
+
