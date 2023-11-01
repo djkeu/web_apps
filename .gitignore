@@ -6,3 +6,4 @@ ll_env/
 
 *.html
 *.json
+learning_log/db.sqlite3
