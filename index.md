@@ -9,7 +9,7 @@ Creating a virtual environment, p.380
 Activating the virtual environment, p.381
 Installing Django, p.381
 
-    Note: Activate command: ll_env\scripts\activate
+    Note: Windows activate command: ll_env\scripts\activate
 
 Creating a project in Django, p.382
 Creating the database, p.382
