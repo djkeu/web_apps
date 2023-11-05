@@ -31,13 +31,13 @@ The django admin site, p.387
     Setting up a superuser
     Registering a model with the admin site
         admin.py
-    ToDo: Adding topics
+    Adding topics
 Defining the entry model, p.390
     models.py
 Migrating the entry model, p.391
 Registering Entry with the admin site, p.391
     admin.py
-The Django shell, p.392
+ToDo: The Django shell, p.392
 
 
 # Try it yourself, p.394
