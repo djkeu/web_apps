@@ -31,7 +31,7 @@ The django admin site, p.387
     Setting up a superuser
     Registering a model with the admin site
         admin.py
-    Adding topics
+    ToDo: Adding topics
 Defining the entry model, p.390
     models.py
 Migrating the entry model, p.391
