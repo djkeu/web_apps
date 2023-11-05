@@ -47,7 +47,10 @@ The __str__() method in the Entry model currently appends an ellipsis to every i
     models.py
 
 ## ToDo: 18-3. The Django API: 
-When you write code to access the data in your project, you’re writing a query. Skim through the documentation for querying your data at https://docs.djangoproject.com/en/2.2/topics/db/queries/. Much of what you see will look new to you, but it will be very useful as you start to work on your own projects.
+When you write code to access the data in your project, you’re writing a query. Skim through the documentation for querying your data at 
+    Note: Insecure version: https://docs.djangoproject.com/en/2.2/topics/db/queries/. 
+Much of what you see will look new to you, but it will be very useful as you start to work on your own projects.
+    Note: New django version: https://docs.djangoproject.com/en/4.2/topics/db/queries/
 
 ## ToDo: 18-4. Pizzeria: 
 Start a new project called pizzeria with an app called pizzas. Define a model Pizza with a field called name, which will hold name values, such as Hawaiian and Meat Lovers. Define a model called Topping with fields called pizza and name. The pizza field should be a foreign key to Pizza, and name should be able to hold values such as pineapple, Canadian bacon, and sausage. Register both models with the admin site, and use the site to enter some pizza names and toppings. Use the shell to explore the data you entered.
