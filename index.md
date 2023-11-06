@@ -61,4 +61,6 @@ Mapping an url, p.395
     learning_log/learning_log/urls.py
     learning_logs.urls.py
 Writing a view, p.396
-
+    views.py
+Writing a template, p.397
+    index.html
