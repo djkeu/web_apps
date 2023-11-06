@@ -70,6 +70,7 @@ Writing a template, p.397
 
 ## 18-5. Meal Planner: 
 ToDo: Consider an app that helps people plan their meals throughout the week. Make a new folder called meal_planner, and start a new Django project inside this folder. Then make a new app called meal_plans. Make a simple home page for this project.
+    ToDo: map the url of the home page
 
 ## 18-6. Pizzeria Home Page: 
 ToDo: Add a home page to the Pizzeria project you started in Exercise 18-4 (page 394).
