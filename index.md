@@ -58,4 +58,4 @@ Start a new project called pizzeria with an app called pizzas. Define a model Pi
 
 # Making pages: the learning log home page, p.394
 Mapping an url, p.395
-    urls.py
+    learning_log/learning_log/urls.py
