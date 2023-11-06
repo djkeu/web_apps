@@ -3,7 +3,7 @@ from django.urls import path
 from . import views
 
 app_name = 'meal_planner'
-url_patterns = [
+urlpatterns = [
     # Home page
     path('', views.index, name='index')
 ]
