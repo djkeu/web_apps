@@ -4,6 +4,7 @@ __pycache__/
 bin/
 ll_env/
 pizenv/
+mp_env/
 
 *.html
 *.json
