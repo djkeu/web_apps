@@ -85,4 +85,6 @@ The topics page, p.400
     The topics view, views.py
     The topics template, topics.html
 Individual topics pages, p.403
-    ToDo: The topic url pattern, urls.py
+    The topic url pattern, urls.py
+    The topic view, views.py
+    
