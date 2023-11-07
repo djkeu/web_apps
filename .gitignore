@@ -6,7 +6,6 @@ ll_env/
 pizenv/
 mp_env/
 
-*.html
 *.json
 learning_log/db.sqlite3
 pizzeria/db.sqlite3
