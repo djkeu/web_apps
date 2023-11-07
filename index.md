@@ -72,7 +72,7 @@ Writing a template, p.397
 Consider an app that helps people plan their meals throughout the week. Make a new folder called meal_planner, and start a new Django project inside this folder. Then make a new app called meal_plans. Make a simple home page for this project.
 
 ## 18-6. Pizzeria Home Page: 
-ToDo: KeuDesk: Add a home page to the Pizzeria project you started in Exercise 18-4 (page 394).
+Add a home page to the Pizzeria project you started in Exercise 18-4 (page 394).
 
 
 # Building additional pages, p.398
@@ -99,4 +99,3 @@ You can refer back to it when you’re working on your own projects.
 
 ## 18-8. Pizzeria Pages: 
 Add a page to the Pizzeria project from Exercise 18-6 (page 398) that shows the names of available pizzas. Then link each pizza name to a page displaying the pizza’s toppings. Make sure you use template inheritance to build your pages efficiently.
-
