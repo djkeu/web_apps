@@ -82,4 +82,6 @@ The child template, p.399
     index.html
 The topics page, p.400
     The topics URL pattern, urls.py
+    The topics view, views.py
+    The topics template, topics.html
     
