@@ -88,4 +88,3 @@ Individual topics pages, p.403
     The topic url pattern, urls.py
     The topic view, views.py
     The topic template, topic.html
-    FixMe: django can´t find topic.html
