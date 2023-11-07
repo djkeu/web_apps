@@ -80,3 +80,6 @@ Template inheritance, p.398
     base.html
 The child template, p.399
     index.html
+The topics page, p.400
+    The topics URL pattern, urls.py
+    
