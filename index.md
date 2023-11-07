@@ -77,3 +77,4 @@ ToDo: KeuDesk: Add a home page to the Pizzeria project you started in Exercise 1
 
 # Building additional pages, p.398
 Template inheritance, p.398
+    base.html
