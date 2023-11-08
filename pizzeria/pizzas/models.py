@@ -11,7 +11,7 @@ class Pizza(models.Model):
 class Topping(models.Model):
     """Model the toppings of a pizza."""
     pizza = models.ForeignKey(Pizza, on_delete=models.CASCADE)
-    topping_name = models.TextField()
+    topping_name = models.CharField(max_length=200)
 
     class Meta:
         verbose_name_plural = 'toppings'
