@@ -100,5 +100,6 @@ You can refer back to it when you’re working on your own projects.
 ## 18-8. Pizzeria Pages: 
 Add a page to the Pizzeria project from Exercise 18-6 (page 398) that shows the names of available pizzas. 
 FixMe: views.py, line 7, in index return render(request, 'pizzas/index.html')
+    ToDo: rollback
 Then link each pizza name to a page displaying the pizza’s toppings. Make sure you use template inheritance to build your pages efficiently.
     ToDo: keuBook: pz_env ipv pizenv
