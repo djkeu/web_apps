@@ -97,9 +97,7 @@ Skim the Django template documentation at
 https://docs.djangoproject.com/en/4.2/topics/templates/
 You can refer back to it when you’re working on your own projects.
 
-## 18-8. Pizzeria Pages: 
-ToDo: keuBook: pz_env ipv pizenv
-
+## 18-8. Pizzeria Pages:
 Add a page to the Pizzeria project from Exercise 18-6 (page 398) that shows the names of available pizzas. 
 ToDo: 
 Then link each pizza name to a page displaying the pizza’s toppings. Make sure you use template inheritance to build your pages efficiently.
