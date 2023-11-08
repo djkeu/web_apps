@@ -15,6 +15,6 @@ def pizzas(request):
 def pizza(request, pizza_id):
     """Single pizza with toppings."""
     pizza = Pizza.objects.get(id=pizza_id)
-    toppings = pizza.topping_set.order_by('-id')
+    toppings = pizza.topping_set.order_by('topping_name')
     context = {'pizza': pizza, 'toppings': toppings}
     return render(request, 'pizzas/pizza.html', context)
