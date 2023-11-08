@@ -12,9 +12,9 @@ def pizzas(request):
     context = {'pizzas': pizzas}
     return render(request, 'pizzas/pizzas.html', context)
 
-def pizza(request, topic_id):
+def pizza(request, pizza_id):
     """Single pizza with toppings."""
-    pizza = Pizza.objects.get(id=topic_id)
-    toppings = pizza.entry_set
+    pizza = Pizza.objects.get(id=pizza_id)
+    toppings = pizza.topping_set.order_by('-id')
     context = {'pizza': pizza, 'toppings': toppings}
     return render(request, 'pizzas/pizza.html', context)
