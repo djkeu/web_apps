@@ -114,4 +114,6 @@ Adding new topics, p.410
     GET and POST requests, p.412
     The new_topic template, p.412
         new_topic.html
-    
+    Linking to the new topic page, p.413
+        topics.html
+        
