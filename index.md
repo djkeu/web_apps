@@ -143,4 +143,4 @@ Fill in your forms to make sure they work.
     web_apps/blog
     Note: superuser: blog_admin
 
-    Todo: The Blog home page, p.394
+    Todo: Building additional pages, p.398
