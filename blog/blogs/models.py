@@ -8,7 +8,7 @@ class Blog(models.Model):
     def __str__(self) -> str:
         return self.title
 """
-    
+
 class BlogPost(models.Model):
     title = models.CharField(max_length=200)
     text = models.TextField()
@@ -21,5 +21,5 @@ class BlogPost(models.Model):
         if len(self.text) < 50:
             return self.text
         else:
-            return f"{self.text[:50]}"
+            return f"{self.text[:50]}.."
         
