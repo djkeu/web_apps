@@ -2,8 +2,9 @@
 
 __pycache__/
 bin/
+
+# Virtual environments
 ll_env/
-pizenv/
 pz_env
 mp_env/
 b_env

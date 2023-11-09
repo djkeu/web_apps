@@ -142,3 +142,5 @@ Create a form for making new posts and another for editing existing posts.
 Fill in your forms to make sure they work.
     web_apps/blog
     Note: app 'blogs' started, p.385
+    Note: superuser: blog_admin
+    
