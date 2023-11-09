@@ -18,8 +18,8 @@ class BlogPost(models.Model):
         verbose_name_plural = 'blogposts'
 
     def __str__(self) -> str:
-        if len(self.text) < 50:
-            return self.text
+        if len(self.title) < 50:
+            return self.title
         else:
-            return f"{self.text[:50]}.."
+            return f"{self.title[:50]}.."
         
