@@ -8,5 +8,3 @@ pz_env
 mp_env/
 
 *.json
-learning_log/db.sqlite3
-pizzeria/db.sqlite3
