@@ -116,4 +116,5 @@ Adding new topics, p.410
         new_topic.html
     Linking to the new topic page, p.413
         topics.html
-        
+Adding new entries, p.414
+    ToDo: The entry ModelForm, p.414
