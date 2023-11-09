@@ -123,5 +123,6 @@ Adding new entries, p.414
     The new entry template
     Linking to the new entry page
 Editing entries, p.418
-
+    The edit_entry url
+    
 
