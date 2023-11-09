@@ -106,7 +106,12 @@ Add a page to the Pizzeria project from Exercise 18-6 (page 398) that shows the 
 # Allowing users to enter data, p.410
 Adding new topics, p.410
     The topic ModelForm, p.410
-        forms.py
-    The new topic URL
+        forms.py, p.411
+    The new topic URL, p.411
         urls.py
+    The new topic() view function, p.411
+        views.py
+    GET and POST requests, p.412
+    The new_topic template, p.412
+        new_topic.html
     
