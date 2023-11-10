@@ -5,8 +5,10 @@
 <p>Blogs</p>
 
 <ul>
-    {% for blog in blogs %}
-        <li>{{ blog }}</li>
+    {% for blogpost in blogposts %}
+        <li>
+            <a href="{% url 'blogs:blogpost' blogpost.id %}">{{ blogpost }}</a>
+        </li>
     {% empty %}
         <li>Er zijn nog geen blogs te vinden hier.</li>
     {% endfor %}

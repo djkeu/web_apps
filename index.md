@@ -138,7 +138,7 @@ The model should have fields like title, text, and date_added.
 Create a superuser for the project, and use the admin site to make a couple of short posts. 
 Make a home page that shows all posts in chronological order. 
     blogs.html, The blogs page, p.400
-    Todo: Individual blog pages, p.403
+    FixMe: Individual blog pages, p.403
     blog.html
 
 ToDo: Create a form for making new posts and another for editing existing posts. 

@@ -16,4 +16,4 @@ def blogpost(request, blogpost_id):
     blogpost = BlogPost.objects.get(id=blogpost_id)
     blogposts = blogpost.blogpost_set.order_by('-date_added')
     context = {'blogpost': blogpost, 'blogposts': blogposts}
-    return render(request, 'blogs/blogposts.html', context)
+    return render(request, 'blogs/blogpost.html', context)
