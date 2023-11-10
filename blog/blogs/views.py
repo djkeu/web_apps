@@ -1,11 +1,15 @@
 from django.shortcuts import render
-from .models import BlogPost
+from .models import Blog, BlogPost
 
 # Create your views here.
 def index(request):
     return render(request, 'blogs/index.html')
 
-# ToDo: def blog(), migrate
+def blogs(request):
+    """Show all blogs."""
+    blogs = Blog.objects.order_by('date_added')
+    context = {'blogs': blogs}
+    return render(request, 'blogs/blogs.html', context)
 
 def blogpost(request, blogpost_id):
     """Show all blogposts."""

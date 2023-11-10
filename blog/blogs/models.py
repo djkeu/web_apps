@@ -11,7 +11,7 @@ class Blog(models.Model):
             return f"{self.title[:50]}.."
 
 class BlogPost(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.ForeignKey(Blog, on_delete=models.CASCADE)
     text = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
@@ -19,8 +19,5 @@ class BlogPost(models.Model):
         verbose_name_plural = 'blogposts'
 
     def __str__(self) -> str:
-        if len(self.title) < 50:
-            return self.title
-        else:
-            return f"{self.title[:50]}.."
+        return f"{self.text[:50]}.."
         
