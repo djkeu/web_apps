@@ -5,7 +5,10 @@ class Blog(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self) -> str:
-        return self.title
+        if len(self.title) < 50:
+            return self.title
+        else:
+            return f"{self.title[:50]}.."
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=200)
