@@ -5,7 +5,7 @@ from .models import BlogPost
 def index(request):
     return render(request, 'blogs/index.html')
 
-# ToDo: def blog()
+# ToDo: def blog(), migrate
 
 def blogpost(request, blogpost_id):
     """Show all blogposts."""
