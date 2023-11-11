@@ -5,7 +5,7 @@ from django.urls import path
 from . import views
 
 app_name = 'blogs'
-url_patterns = [
+urlpatterns = [
     # Home page
     path('', views.index, name='index'),
 ]
