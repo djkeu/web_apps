@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def index(request):
     """Home page for blogs."""
-    return render(request, 'logs/index.html')
+    return render(request, 'blogs/index.html')
