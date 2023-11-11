@@ -9,5 +9,5 @@ urlpatterns = [
     # Home page
     path('', views.index, name='index'),
     # Blogs
-    path('blogposts', views.blogposts, name='blogposts'),
+    path('blogposts/', views.blogposts, name='blogposts'),
 ]
