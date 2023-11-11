@@ -1,0 +1,17 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+
+<p>Blogs</p>
+
+<ul>
+    {% for blogpost in blogposts %}
+        <li>
+            <a href="{% url 'blogs:blogposts' blogpost.id %}">{{ blogpost }}</a>
+        </li>
+    {% empty %}
+        <li>Er zijn nog geen blogs te vinden hier.</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
