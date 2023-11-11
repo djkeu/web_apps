@@ -1,14 +1,16 @@
-<p>
+<p style="margin-left: 30%; color: red">
 ToDo: show all posts in chronological order. 
 </p>
 
-<ul>
+{% block content %}
+
+<ul style="margin-left: 30%;">
     {% for blogpost in blogposts %}
     <li>
         </li>
         <p>{{ blogpost.date_added|date:'M d, Y H:i' }}</p>
         <p>{{ blogpost.title }}</p>
-        <p>{{ blogpost.text|linebreaks}}</p>
+        <p>{{ blogpost.text|linebreaks }}</p>
 
     </li>
 
@@ -16,3 +18,5 @@ ToDo: show all posts in chronological order.
     <li>No blogposts</li>
     {% endfor %}
 </ul>
+
+{% endblock content %}

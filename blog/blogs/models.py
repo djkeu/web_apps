@@ -7,6 +7,9 @@ class BlogPost(models.Model):
     text = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        verbose_name_plural = 'blogposts'
+        
     def __str__(self) -> str:
         return self.title
     
