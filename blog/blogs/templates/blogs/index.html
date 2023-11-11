@@ -1,5 +1,12 @@
-<h1>Blogs</h1>
+{% extends 'blogs/base.html' %}
+
+{% block content %}
 
 <p>
     Blogs, om te lezen en te schrijven, om te vergeten en te blijven. Doe er wat mee.
 </p>
+
+{% include 'blogs/base.html' %}
+
+{% endblock content %}
+
