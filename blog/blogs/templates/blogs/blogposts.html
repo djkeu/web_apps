@@ -1,9 +1,18 @@
 <p>
-    Test<br>
-    Test<br>
-    Test<br>
-    Test<br>
-    Test<br>
+ToDo: show all posts in chronological order. 
 </p>
 
-ToDo: that shows all posts in chronological order. 
+<ul>
+    {% for blogpost in blogposts %}
+    <li>
+        </li>
+        <p>{{ blogpost.date_added|date:'M d, Y H:i' }}</p>
+        <p>{{ blogpost.title }}</p>
+        <p>{{ blogpost.text|linebreaks}}</p>
+
+    </li>
+
+    {% empty %}
+    <li>No blogposts</li>
+    {% endfor %}
+</ul>
