@@ -7,11 +7,9 @@ ToDo: show all posts in chronological order.
 <ul style="margin-left: 30%;">
     {% for blogpost in blogposts %}
     <li>
-        </li>
         <p>{{ blogpost.date_added|date:'M d, Y H:i' }}</p>
         <p>{{ blogpost.title }}</p>
         <p>{{ blogpost.text|linebreaks }}</p>
-
     </li>
 
     {% empty %}
