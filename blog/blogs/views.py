@@ -15,4 +15,3 @@ def blogpost(request, blogpost_id):
     context = {'blogpost': blogpost, 'blogposts': blogposts}
     return render(request, 'blogposts/html', context)
     # FixMe: blogposts not showing
-
