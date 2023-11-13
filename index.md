@@ -131,19 +131,20 @@ Editing entries, p.418
 
 # Try it yourself, p.421
 
-## 19-1. Blog: 
+## ToDo: 19-1. Blog: 
     web_apps/blog
 
-Done: Start a new Django project called Blog. 
-Done: Create an app called blogs in the project 
-Done: and a model called BlogPost. 
-Done: The model should have fields like title, text, and date_added. 
+ToDo: Start a new Django project called Blog. 
+ToDo: Create an app called blogs in the project 
+ToDo: and a model called BlogPost. 
+ToDo: The model should have fields like title, text, and date_added. 
 
-Done: Create a superuser for the project, and use the admin site to make a couple of short posts. 
+ToDo: Create a superuser for the project, and use the admin site to make a couple of short posts. 
     Note: superuser: blog_admin
 
-Done: Make a home page 
+ToDo: Make a home page 
 ToDo: that shows all posts in chronological order. 
 
 ToDo: Create a form for making new posts and another for editing existing posts. 
 ToDo: Fill in your forms to make sure they work.
+
