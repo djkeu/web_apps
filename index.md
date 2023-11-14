@@ -135,9 +135,9 @@ Editing entries, p.418
     web_apps/blog
 
 Done: Start a new Django project called Blog. 
-ToDo: Create an app called blogs in the project 
-ToDo: and a model called BlogPost. 
-ToDo: The model should have fields like title, text, and date_added. 
+Done: Create an app called blogs in the project 
+Done: and a model called BlogPost. 
+Done: The model should have fields like title, text, and date_added. 
 
 ToDo: Create a superuser for the project, and use the admin site to make a couple of short posts. 
     Note: superuser: blog_admin
