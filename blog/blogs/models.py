@@ -6,4 +6,4 @@ class BlogPost(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self) -> str:
-        return self.tex
+        return self.title
