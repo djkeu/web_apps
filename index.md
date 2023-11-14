@@ -134,7 +134,7 @@ Editing entries, p.418
 ## ToDo: 19-1. Blog: 
     web_apps/blog
 
-ToDo: Start a new Django project called Blog. 
+Done: Start a new Django project called Blog. 
 ToDo: Create an app called blogs in the project 
 ToDo: and a model called BlogPost. 
 ToDo: The model should have fields like title, text, and date_added. 
