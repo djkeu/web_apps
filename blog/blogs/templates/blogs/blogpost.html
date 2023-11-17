@@ -1,0 +1,17 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+
+<ul>
+    {% for post in blogposts %}
+    <li>
+        {{ post.id}} - {{ post.title}}
+        {{ post.text }}
+    </li>
+    {% empty %}
+    <li>
+        No blogs found
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

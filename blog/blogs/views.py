@@ -15,6 +15,13 @@ def blogposts(request):
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)
 
+def post(request, post_id):
+    """Single blog post."""
+    post = BlogPost.objects.get(id=post_id)
+    #posts = posts.order_by('-date_added')
+    context = {'posts': post}
+    return render(request, 'blogs/blogpost.html', context)
+
 def new_post(request):
     """Add a new post."""
     if request.method != 'POST':

@@ -146,7 +146,9 @@ Done: Make a home page that shows all posts in chronological order.
 
 Done: Create a form for making new posts 
 ToDo: and another for editing existing posts. p.418 
+    (ToDo: get rid of linked titles in index.html)
 ToDo: Fill in your forms to make sure they work.
+
 
 
 # Setting up user accounts, p.421
