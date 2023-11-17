@@ -6,7 +6,10 @@
 
 <ul>
     {% for post in blogposts %}
-    <li>{{ post.id }} {{ post.title }}</li>
+    <li>
+        {{ post.id }} {{ post.title }}<br />
+        {{ post.text|linebreaks }}
+    </li>
     {% empty %}
     <li>No blogposts found</li>
     {% endfor %}
