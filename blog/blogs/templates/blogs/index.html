@@ -7,21 +7,13 @@
 <ul>
     {% for post in blogposts %}
     
-    <!-- Linked post title, links to empty
     <li>
-        <a href="{% url 'blogs:post' post.id %}">{{ post }}</a>
-    </li>
-    -->
-
-    <li>
-        <!-- {{ post.id }} - {{ post.title }}<br /> -->
         <h4>{{ post.title }}</h4>
         {{ post.text|linebreaks }}
 
-        <p>
+        <p class="marginleft">
             <a href="{% url 'blogs:edit_post' post.id %}">Edit post</a>
         </p>
-
     </li>
 
     {% empty %}
