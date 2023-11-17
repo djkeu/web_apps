@@ -16,6 +16,11 @@
     <li>
         {{ post.id }} - {{ post.title }}<br />
         {{ post.text|linebreaks }}
+
+        <p>
+            <a href="{% url 'blogs:edit_post' post.id %}">Edit post</a>
+        </p>
+
     </li>
 
     {% empty %}

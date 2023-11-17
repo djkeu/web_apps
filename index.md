@@ -145,9 +145,8 @@ Done: Create a superuser for the project, and use the admin site to make a coupl
 Done: Make a home page that shows all posts in chronological order. 
 
 Done: Create a form for making new posts 
-ToDo: and another for editing existing posts. p.418 
-ToDo: Fill in your forms to make sure they work.
-
+Done: and another for editing existing posts. p.418 
+Done: Fill in your forms to make sure they work.
 
 
 # Setting up user accounts, p.421

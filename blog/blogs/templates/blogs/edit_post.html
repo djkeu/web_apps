@@ -1,0 +1,27 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+
+<h2><a href="{% url 'blogs:edit_post'  post.id %}">{{ post }}</a></h2>
+<h3>Edit post:</h3>
+
+<form action="{% url 'blogs:edit_post' post.id %}" method='post'>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button name="submit">Save changes</button>
+</form>
+
+<script>
+    document.getElementById('editForm').addEventListener('submit', function (event) {
+        // Perform any necessary form validation here
+
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Redirect to the root
+        window.location.href = '/';
+    });
+</script>
+
+
+{% endblock content %}

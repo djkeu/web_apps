@@ -52,7 +52,8 @@ def edit_post(request, post_id):
         form = BlogForm(instance=post,data=request.POST)
         if form.is_valid():
             form.save()
-            return redirect('blogs:post', post_id=post.id)
+            # return redirect('blogs:post', post_id=post.id)
+            return redirect('/')
         
     context = {'post': post, 'title': title, 'form': form}
     return render(request, 'blogs/edit_post.html', context)
