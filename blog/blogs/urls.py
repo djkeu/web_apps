@@ -7,6 +7,6 @@ from . import views
 app_name = 'blogs'
 urlpatterns = [
     # Home page
-    path('', views.index, name='index'),
-    path('', views.blogposts, name='blogposts')
+    #path('', views.index, name='index'),
+    path('', views.blogposts, name='index')
 ]

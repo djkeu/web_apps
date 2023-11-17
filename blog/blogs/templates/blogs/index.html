@@ -1,5 +1,15 @@
-<p>Blogs</p>
+{% extends 'blogs/base.html' %}
 
-<p>
-    A lot of interesting stuff going on in blogs.
-</p>
+{% block content %}
+
+<p>Blogposts</p>
+
+<ul>
+    {% for post in blogposts %}
+    <li>{{ post.id }} {{ post.title }}</li>
+    {% empty %}
+    <li>No blogposts found</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
