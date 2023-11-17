@@ -131,22 +131,22 @@ Editing entries, p.418
 
 # Try it yourself, p.421
 
-## ToDo: 19-1. Blog: 
+## 19-1. Blog: 
     web_apps/blog
 
-Done: Start a new Django project called Blog. 
-Done: Create an app called blogs in the project 
-Done: and a model called BlogPost. 
-Done: The model should have fields like title, text, and date_added. 
+Start a new Django project called Blog. 
+Create an app called blogs in the project 
+and a model called BlogPost. 
+The model should have fields like title, text, and date_added. 
 
-Done: Create a superuser for the project, and use the admin site to make a couple of short posts. 
+Create a superuser for the project, and use the admin site to make a couple of short posts. 
     Note: superuser: blog_admin
 
-Done: Make a home page that shows all posts in chronological order. 
+Make a home page that shows all posts in chronological order. 
 
-Done: Create a form for making new posts 
-Done: and another for editing existing posts. p.418 
-Done: Fill in your forms to make sure they work.
+Create a form for making new posts 
+and another for editing existing posts. p.418 
+Fill in your forms to make sure they work.
 
 
 # Setting up user accounts, p.421
