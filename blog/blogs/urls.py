@@ -9,4 +9,6 @@ urlpatterns = [
     # Home page
     # path('', views.index, name='index'),
     path('', views.blogposts, name='index'),
+    # Page for adding new blogpost
+    path('new_post/', views.new_post, name='new_post'),
 ]
