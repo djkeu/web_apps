@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 
 from .models import BlogPost
-from forms import BlogForm
+from .forms import BlogForm
 
 # Create your views here.
 def index(request):
@@ -26,8 +26,8 @@ def new_post(request):
         form = BlogForm(data=request.POST)
         if form.is_valid():
             form.save()
-            return redirect('blogs:blogposts')
+            return redirect('blogs:index')
         
     # Display blank or invalid form
-    context = [{'form': form}]
-    return render(request, 'blogs/new_topic.html', context)
+    context = {'form': form}
+    return render(request, 'blogs/new_post.html', context)

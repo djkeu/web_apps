@@ -5,6 +5,6 @@ from .models import BlogPost
 class BlogForm(forms.ModelForm):
     class Meta:
         model = BlogPost
-        fields = ['text']
+        fields = ['title', 'text']
         labels = {'text': ''}  # no label for the text field
  
