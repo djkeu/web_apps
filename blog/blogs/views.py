@@ -13,10 +13,3 @@ def blogposts(request):
     blogposts = blogposts.order_by('-date_added')
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)
-
-def blogpost(request, blogpost_id):
-    """Show single blogpost."""
-    blogpost = BlogPost.objects.get(id=blogpost_id)
-    blogposts = blogpost.blogpost_set.order_by('-date_added')
-    context ={'blogposts': blogposts, 'blogpost': blogpost}
-    return render(request, 'blogs/blogpost.html', context)
