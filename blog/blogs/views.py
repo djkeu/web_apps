@@ -15,13 +15,6 @@ def blogposts(request):
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)
 
-def post(request, post_id):
-    """Single blog post."""
-    post = BlogPost.objects.get(id=post_id)
-    #posts = posts.order_by('-date_added')
-    context = {'posts': post}
-    return render(request, 'blogs/blogpost.html', context)
-
 def new_post(request):
     """Add a new post."""
     if request.method != 'POST':
@@ -53,7 +46,7 @@ def edit_post(request, post_id):
         if form.is_valid():
             form.save()
             # return redirect('blogs:post', post_id=post.id)
-            return redirect('/')
+            return redirect('blogs:index')
         
     context = {'post': post, 'title': title, 'form': form}
     return render(request, 'blogs/edit_post.html', context)
