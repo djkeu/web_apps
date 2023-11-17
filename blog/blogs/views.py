@@ -10,6 +10,6 @@ def index(request):
 def blogposts(request):
     """Show blogposts."""
     blogposts = BlogPost.objects.all()
-    blogposts = blogposts.order_by('date_added')
+    blogposts = blogposts.order_by('-date_added')
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)

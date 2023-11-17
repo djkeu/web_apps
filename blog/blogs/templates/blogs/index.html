@@ -2,12 +2,12 @@
 
 {% block content %}
 
-<h2>Blogposts</h2>
+<h3>Blogposts</h3>
 
 <ul>
     {% for post in blogposts %}
     <li>
-        {{ post.id }} {{ post.title }}<br />
+        {{ post.id }} - {{ post.title }}<br />
         {{ post.text|linebreaks }}
     </li>
     {% empty %}
