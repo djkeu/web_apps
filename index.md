@@ -151,3 +151,5 @@ Fill in your forms to make sure they work.
 
 # Setting up user accounts, p.421
 The users app
+    Adding users to settings.py
+        learning_log/learning_log/settings.py
