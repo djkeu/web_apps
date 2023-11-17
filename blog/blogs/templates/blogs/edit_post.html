@@ -11,17 +11,4 @@
     <button name="submit">Save changes</button>
 </form>
 
-<script>
-    document.getElementById('editForm').addEventListener('submit', function (event) {
-        // Perform any necessary form validation here
-
-        // Prevent the default form submission
-        event.preventDefault();
-
-        // Redirect to the root
-        window.location.href = '/';
-    });
-</script>
-
-
 {% endblock content %}
