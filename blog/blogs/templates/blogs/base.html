@@ -11,6 +11,7 @@
         color: darkgreen;
     }
     h3 {
+        text-align: center;
         color: darkblue;
     }
     h4 {
@@ -20,14 +21,21 @@
         list-style-type: none;
         padding: 0;
     }
+    /* Used in blogs/index.html */
     .marginleft {
         margin-left: 20;
     }
 </style>
 
-<h1>
-    <a href="{% url 'blogs:index' %}">Blogs</a>
-</h1>
+<h3>
+    <a href="{% url 'blogs:index' %}">Blogs</a> - 
+    {% if user.is_authenticated %}
+        Hello, {{ username }}.
+        <a href="{% url 'users:logout %}">Log out</a>
+    {% else %}
+        <a href="{% url 'users:login' %}">Log in</a>
+    {% endif %}
+</h3>
 
 <h2>
     There sure is a lot of interesting stuff going on in these blogs.
