@@ -157,4 +157,6 @@ The users app
         learning_log/urls.py
 The login page
         learning_logs/urls.py
+    The login template
+        # ToDo: login.html
     
