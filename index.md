@@ -191,3 +191,7 @@ Restricting access with @login_required
         Note: normal user: marc
     Restricting access throughout learning log, p.430
         views.py
+Connecting data to certain users, p.430
+    Modifying the Topic model
+        models.py
+    
