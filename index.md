@@ -197,4 +197,5 @@ Connecting data to certain users, p.430
     Identifying existing users, p.431
         shell
     Migrating the database, p.432
-    
+Restricting topic access to appropriate users, p.433
+    views.py
