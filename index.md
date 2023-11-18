@@ -164,4 +164,7 @@ The login page
     Using the login page
 Logging out, p.424
     Adding a logout link to base.html
-        #ToDo: learning_logs/base.html
+        # Done: learning_logs/base.html
+    The logout confirmation page
+        # ToDo: logged_out.html
+    Updat 
