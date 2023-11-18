@@ -182,3 +182,7 @@ Logging out, p.424
 Add a user authentication and registration system to the Blog project you started in Exercise 19-1 (page 421). Make sure logged-in users see their username somewhere on the screen and unregistered users see a link to the registration page.
 
 
+# Allow users to own their data, p.428
+Restricting access with @login_required
+    Restricting access to the blogs/index page
+        views.py
