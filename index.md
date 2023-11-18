@@ -164,7 +164,21 @@ The login page
     Using the login page
 Logging out, p.424
     Adding a logout link to base.html
-        # Done: learning_logs/base.html
+        learning_logs/base.html
     The logout confirmation page
-        # ToDo: logged_out.html
-    Updat 
+        logged_out.html
+    The registration page, p.426
+        urls.py
+    The register() view function
+        views.py
+    The register template
+        register.html
+    Linking to the registration page
+    
+
+# Try it yourself, p.428
+
+## ToDo: 19-2. Blog Accounts: 
+Add a user authentication and registration system to the Blog project you started in Exercise 19-1 (page 421). Make sure logged-in
+users see their username somewhere on the screen and unregistered users see a link to the registration page.
+
