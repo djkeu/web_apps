@@ -150,6 +150,8 @@ Fill in your forms to make sure they work.
 
 
 # Setting up user accounts, p.421
+    Note: normal user: marc
+
 The users app
     Adding users to settings.py
         learning_log/learning_log/settings.py
@@ -177,7 +179,6 @@ Logging out, p.424
     
 
 # Try it yourself, p.428
-
 ## 19-2. Blog Accounts: 
 Add a user authentication and registration system to the Blog project you started in Exercise 19-1 (page 421). Make sure logged-in users see their username somewhere on the screen and unregistered users see a link to the registration page.
 
@@ -187,6 +188,6 @@ Restricting access with @login_required
     Restricting access to the topics page
         views.py
         settings.py
+        Note: normal user: marc
     Restricting access throughout learning log, p.430
         views.py
-    
