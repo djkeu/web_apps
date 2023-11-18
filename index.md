@@ -206,7 +206,7 @@ Associating new topics with the current user, p.435
 
 # ToDo: Try it yourself, p.436
 
-## ToDo: 19-3. Refactoring: 
+## Done: 19-3. Refactoring: 
 There are two places in views.py where we make sure the user associated with a topic matches the currently logged in user. Put the code for this check in a function called check_topic_owner(), and call this function where appropriate.
 
 ## ToDo: 19-4. Protecting new_entry: 
