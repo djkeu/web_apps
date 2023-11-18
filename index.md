@@ -158,5 +158,10 @@ The users app
 The login page
         learning_logs/urls.py
     The login template
-        # ToDo: login.html
-    
+        # login.html
+    Linking to the login page
+        learning_logs/base.html
+    Using the login page
+Logging out, p.424
+    Adding a logout link to base.html
+        #ToDo: learning_logs/base.html
