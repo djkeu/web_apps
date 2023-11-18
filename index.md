@@ -185,7 +185,7 @@ Add a user authentication and registration system to the Blog project you starte
 
 # Allow users to own their data, p.428
 Restricting access with @login_required
-    Restricting access to the topics page
+    Restricting access to the topics page, p.429
         views.py
         settings.py
         Note: normal user: marc
@@ -194,4 +194,7 @@ Restricting access with @login_required
 Connecting data to certain users, p.430
     Modifying the Topic model
         models.py
+    Identifying existing users, p.431
+        shell
+    Migrating the database, p.432
     
