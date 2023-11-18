@@ -184,5 +184,9 @@ Add a user authentication and registration system to the Blog project you starte
 
 # Allow users to own their data, p.428
 Restricting access with @login_required
-    Restricting access to the blogs/index page
+    Restricting access to the topics page
         views.py
+        settings.py
+    Restricting access throughout learning log, p.430
+        views.py
+    
