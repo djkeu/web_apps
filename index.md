@@ -199,12 +199,9 @@ Connecting data to certain users, p.430
     Migrating the database, p.432
 Restricting topic access to appropriate users, p.433
     views.py
-ToDO: Protecting a user's topics, p.434
-    views.py
-ToDo: Protecting the edit_entry page, p.434
-    views.py
-ToDo: Associating new topics with the current user, p.435
-    views.py
+Protecting a user's topics, p.434
+Protecting the edit_entry page, p.434
+Associating new topics with the current user, p.435
 
 
 # ToDo: Try it yourself, p.436
