@@ -154,4 +154,7 @@ The users app
     Adding users to settings.py
         learning_log/learning_log/settings.py
     Inclusing the urls from users
-        urls.py
+        learning_log/urls.py
+The login page
+        learning_logs/urls.py
+    
