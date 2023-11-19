@@ -50,6 +50,8 @@ def new_topic(request):
 def new_entry(request, topic_id):
     """Add new entry for a particular topic."""
     topic = Topic.objects.get(id=topic_id)
+    if request.user != topic.owner:
+        raise Http404
 
     if request.method != 'POST':
         # No data submitted, create a blank form
