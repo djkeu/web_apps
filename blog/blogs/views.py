@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
 from .models import BlogPost
 from .forms import BlogForm
@@ -8,6 +9,7 @@ def index(request):
     """Home page for blogs."""
     return render(request, 'blogs/index.html')
 
+@login_required
 def blogposts(request):
     """Show blogposts."""
     blogposts = BlogPost.objects.all()
@@ -15,6 +17,7 @@ def blogposts(request):
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)
 
+@login_required
 def new_post(request):
     """Add a new post."""
     if request.method != 'POST':
@@ -32,6 +35,7 @@ def new_post(request):
     context = {'form': form}
     return render(request, 'blogs/new_post.html', context)
 
+@login_required
 def edit_post(request, post_id):
     """Edit an existing post."""
     post = BlogPost.objects.get(id=post_id)
