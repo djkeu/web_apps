@@ -241,13 +241,8 @@ Styling the entries on the topics page, p.446
 
 # Try it yourself, p.447
 
-## ToDo: 20-1. Other Forms: 
-We applied Bootstrap’s styles to the login page. Make
-similar changes to the rest of the form-based pages including 
-Done: new_topic, 
-Done: new_entry, 
-Done: edit_entry, and 
-ToDo: register.
+## 20-1. Other Forms: 
+We applied Bootstrap’s styles to the login page. Make similar changes to the rest of the form-based pages including new_topic, new_entry, edit_entry, and register.
 
 ## ToDo: 20-2. Stylish Blog: 
 Use Bootstrap to style the Blog project you created in
