@@ -235,3 +235,6 @@ Styling the login page, p.444
     login.html
 Styling the topics page, p.445
     topics.html
+Styling the entries on the topics page, p.446
+    topic.html
+    
