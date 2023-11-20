@@ -246,7 +246,7 @@ We applied Bootstrap’s styles to the login page. Make
 similar changes to the rest of the form-based pages including 
 Done: new_topic, 
 Done: new_entry, 
-ToDo: edit_entry, and 
+Done: edit_entry, and 
 ToDo: register.
 
 ## ToDo: 20-2. Stylish Blog: 
