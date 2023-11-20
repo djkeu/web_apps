@@ -228,4 +228,6 @@ Modifying base.html
     Defining the html headers, p.439
         base.html
     Defining the navigation bar, p.440
-    
+    Defining the main part of the page, p.442
+Styling the home page using a Jumbotron, p.443
+    index.html
