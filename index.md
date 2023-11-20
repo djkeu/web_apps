@@ -224,7 +224,8 @@ In your Blog project, make sure each blog post is connected to a particular user
 The django-bootstrap4 app
     install django-bootstrap4
 Using bootstrap to style Learning log, p.438
-Modifying base.html, p.439
-    Defining the html headers
+Modifying base.html
+    Defining the html headers, p.439
         base.html
+    Defining the navigation bar, p.440
     
