@@ -231,3 +231,5 @@ Modifying base.html
     Defining the main part of the page, p.442
 Styling the home page using a Jumbotron, p.443
     index.html
+Styling the login page, p.444
+    login.html
