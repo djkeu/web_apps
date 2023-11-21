@@ -61,3 +61,7 @@ def edit_post(request, post_id):
         
     context = {'post': post, 'title': title, 'form': form}
     return render(request, 'blogs/edit_post.html', context)
+
+def forbidden(request):
+    """Page to display when forbidden action is taken."""
+    return render(request, 'blogs/forbidden.html')
