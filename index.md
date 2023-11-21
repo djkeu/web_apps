@@ -245,14 +245,9 @@ Styling the entries on the topics page, p.446
 ## 20-1. Other Forms: 
 We applied Bootstrap’s styles to the login page. Make similar changes to the rest of the form-based pages including new_topic, new_entry, edit_entry, and register.
 
-## ToDo: 20-2. Stylish Blog: 
+## 20-2. Stylish Blog: 
 Use Bootstrap to style the Blog project you created in Chapter 19.
 
-ToDo: Style templates:
-    Done: login
-    Done: loggout
-    Done: register
 
-    Done: new_post
-    Done: edit_post
-    Done: forbidden
+# Deploying Learning log, p.448
+Making a Heroku account
