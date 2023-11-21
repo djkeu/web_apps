@@ -261,4 +261,10 @@ Installing the Platform.sh CLI
 Installing platformshconfig
 Creating a requirements.txt file
 Adding configuration files, p.447
-    ToDo: Making hidden files visible, p.448
+    Making hidden files visible, p.448
+    The .platform.app.yaml Configuration File, p.450
+    The routes.yaml
+    The services.yaml
+Modifying settings.py for Platform.sh, p.451
+    settings.py
+
