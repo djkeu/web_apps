@@ -253,6 +253,6 @@ ToDo: Style templates:
     Done: loggout
     Done: register
 
-    ToDo: new_post
+    Done: new_post
     ToDo: edit_post
     ToDo: forbidden
