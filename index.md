@@ -214,7 +214,7 @@ There are two places in views.py where we make sure the user associated with a t
 Currently, a user can add a new entry to another user’s learning log by entering a URL with the ID of a topic belonging to another user. Prevent this attack by checking that the current user owns the entry’s topic before saving the new entry.
     Note: Attempt to attack failed anyway, Page not found 404
 
-## ToDo: 19-5. Protected Blog: 
+## 19-5. Protected Blog: 
 In your Blog project, make sure each blog post is connected to a particular user. Make sure all posts are publicly accessible but only registered users can add posts and edit existing posts. In the view that allows users to edit their posts, make sure the user is editing their own post before processing the form.
     cd ../blog
 
