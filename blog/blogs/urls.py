@@ -15,4 +15,7 @@ urlpatterns = [
 
     # Page for editing a blogpost
     path('edit_post/<int:post_id>/', views.edit_post, name='edit_post'),
+
+    # Page for forbidden action
+    path('forbidden/', views.forbidden, name='forbidden'),
 ]
