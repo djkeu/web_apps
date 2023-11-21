@@ -255,4 +255,4 @@ ToDo: Style templates:
 
     Done: new_post
     Done: edit_post
-    ToDo: forbidden
+    Done: forbidden
