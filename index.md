@@ -250,7 +250,7 @@ Use Bootstrap to style the Blog project you created in Chapter 19.
 
 ToDo: Style templates:
     Done: login
-    ToDo: loggout
+    Done: loggout
     ToDo: register
 
     ToDo: new_post
