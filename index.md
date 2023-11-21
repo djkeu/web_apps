@@ -267,4 +267,5 @@ Adding configuration files, p.447
     The services.yaml
 Modifying settings.py for Platform.sh, p.451
     settings.py
+Using Git, p.451
 
