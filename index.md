@@ -247,5 +247,5 @@ We applied Bootstrap’s styles to the login page. Make similar changes to the r
 ## ToDo: 20-2. Stylish Blog: 
 Use Bootstrap to style the Blog project you created in
 Chapter 19.
-    Note: cd blog
-    ToDo: Try it yourself 19.5 Protected blog, p.436
+    Done: Try it yourself 19.5 Protected blog, p.436
+        ToDo: Create template to replace 404 page and redirect to index
