@@ -15,6 +15,7 @@ def blogposts(request):
     """Show blogposts."""
     blogposts = BlogPost.objects.all()
     blogposts = blogposts.order_by('-date_added')
+
     context = {'blogposts': blogposts}
     return render(request, 'blogs/index.html', context)
 
@@ -43,6 +44,9 @@ def edit_post(request, post_id):
     """Edit an existing post."""
     post = BlogPost.objects.get(id=post_id)
     title = post.title
+    if post.owner != request.user:
+        # raise Http404  # Different 404 page needed
+        return redirect('blogs:index')
 
     if request.method != 'POST':
         # Initial request, pre-fill form with current data
