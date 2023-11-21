@@ -13,31 +13,28 @@
 
 
 {% block content %}
-
-<h1>Blogposts</h1>
-
-<p><a href="{% url 'blogs:new_post' %}">Add a new post</a></p>
+<h4>
+    <a href="{% url 'blogs:new_post' %}">New post</a>
+</h4>
 
 <ul>
     {% for post in blogposts %}
-    
-    <li>
-        <h4>{{ post.title }}</h4>
-        {{ post.text|linebreaks }}
-
-        <p class="marginleft">
-            <a href="{% url 'blogs:edit_post' post.id %}">Edit post</a>
-        </p>
-    </li>
-
+        <li>
+            <h3>
+                <a href="{% url 'blogs:edit_post' post.id %}">{{ post.title }}</a>
+                
+            </h3>
+            {{ post.text|linebreaks }}
+            <p>
+            </p>
+        </li>
     {% empty %}
-    <li>
-        No blogposts found
-    </li>
-
+        <li><h3>No blogposts found</h3></li>
     {% endfor %}
 </ul>
 
-<p><a href="{% url 'blogs:new_post' %}">Add a new post</a></p>
+<h4>
+    <a href="{% url 'blogs:new_post' %}">New post</a>
+</h4>
 
 {% endblock content %}
