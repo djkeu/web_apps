@@ -1,0 +1,14 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+
+<p>
+    You're not allowed to perform that action, sorry. <br />
+    Please log in as a different user or return to the home page.
+</p>
+<a href="{% url 'users:login' %}">Login</a>
+<a href="{% url 'blogs:index' %}">Home page</a>
+
+
+
+{% endblock content %}

@@ -46,7 +46,8 @@ def edit_post(request, post_id):
     title = post.title
     if post.owner != request.user:
         # raise Http404  # Create different template to handle 404
-        return redirect('blogs:index')
+        # return redirect('blogs:index')
+        return redirect('blogs:forbidden')
 
     if request.method != 'POST':
         # Initial request, pre-fill form with current data
