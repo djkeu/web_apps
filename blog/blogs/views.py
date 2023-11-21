@@ -45,7 +45,7 @@ def edit_post(request, post_id):
     post = BlogPost.objects.get(id=post_id)
     title = post.title
     if post.owner != request.user:
-        # raise Http404  # Different 404 page needed
+        # raise Http404  # Create different template to handle 404
         return redirect('blogs:index')
 
     if request.method != 'POST':
