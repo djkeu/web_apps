@@ -1,10 +1,22 @@
 {% extends 'blogs/base.html' %}
 
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">Watch the blogs</h1>
+
+        <p class="lead">Read all the interesting blogs you need on this very page and be sure to add some stuff of your own as well.
+        </p>
+
+        <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">Register &raquo;</a>
+    </div>
+{% endblock page_header %}
+
+
 {% block content %}
 
 <h1>Blogposts</h1>
 
-<a href="{% url 'blogs:new_post' %}">Add a new post</a>
+<p><a href="{% url 'blogs:new_post' %}">Add a new post</a></p>
 
 <ul>
     {% for post in blogposts %}
@@ -26,6 +38,6 @@
     {% endfor %}
 </ul>
 
-<a href="{% url 'blogs:new_post' %}">Add a new post</a>
+<p><a href="{% url 'blogs:new_post' %}">Add a new post</a></p>
 
 {% endblock content %}

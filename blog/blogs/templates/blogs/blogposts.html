@@ -1,6 +1,8 @@
 {% extends 'blogs/base.html' %}
 
 {% block content %}
+`
+<p><a href="{% url 'blogs:new_post' %}">Add a new post</a></p>
 
 <ul>
     {% for post in blogposts %}
