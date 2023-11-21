@@ -257,3 +257,8 @@ https://ehmatthes.github.io/pcc_2e/deploying_django/deploying_to_platformsh/
 Making a Platform.sh account, p.445 (pcc 3rd edition)
     https://platform.sh/
 
+Installing the Platform.sh CLI
+Installing platformshconfig
+Creating a requirements.txt file
+Adding configuration files, p.447
+    ToDo: Making hidden files visible, p.448
