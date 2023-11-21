@@ -249,7 +249,7 @@ We applied Bootstrap’s styles to the login page. Make similar changes to the r
 Use Bootstrap to style the Blog project you created in Chapter 19.
 
 ToDo: Style templates:
-    ToDo: login
+    Done: login
     ToDo: loggout
     ToDo: register
 
