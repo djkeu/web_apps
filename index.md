@@ -254,5 +254,5 @@ ToDo: Style templates:
     Done: register
 
     Done: new_post
-    ToDo: edit_post
+    Done: edit_post
     ToDo: forbidden
