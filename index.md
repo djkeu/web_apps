@@ -249,4 +249,3 @@ Use Bootstrap to style the Blog project you created in
 Chapter 19.
     Note: cd blog
     ToDo: Try it yourself 19.5 Protected blog, p.436
-    FixMe: views: new_entry()
