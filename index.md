@@ -269,4 +269,4 @@ Adding configuration files, p.447
 Modifying settings.py for Platform.sh, p.451
     settings.py
 Using Git, p.451
-Creating a project on platform.sh, p.453
+ToDo: Creating a project on platform.sh, p.453
