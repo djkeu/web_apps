@@ -245,6 +245,4 @@ Styling the entries on the topics page, p.446
 We applied Bootstrap’s styles to the login page. Make similar changes to the rest of the form-based pages including new_topic, new_entry, edit_entry, and register.
 
 ## ToDo: 20-2. Stylish Blog: 
-Use Bootstrap to style the Blog project you created in
-Chapter 19.
-    Done: Try it yourself 19.5 Protected blog, p.436
+Use Bootstrap to style the Blog project you created in Chapter 19.
