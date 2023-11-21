@@ -250,4 +250,10 @@ Use Bootstrap to style the Blog project you created in Chapter 19.
 
 
 # Deploying Learning log, p.448
-Making a Heroku account
+Note: Making a Heroku account is no longer free
+
+https://ehmatthes.github.io/pcc_2e/deploying_django/deploying_to_platformsh/
+
+Making a Platform.sh account, p.445 (pcc 3rd edition)
+    https://platform.sh/
+
