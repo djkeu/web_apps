@@ -11,4 +11,3 @@ b_env
 
 *.json
 *.sqlite3
-blog/db.sqlite3
